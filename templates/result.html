@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>잔여연차일수</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>입사일자: <input type="text" id="joindate" name="company_join" value="{{company_join_value}}"></p>
+        <p>최근년차시작일자: <input type="text" id="yearoff_pole" name="yearoff_pole_date" value="{{yearoff_pole_date_value}}"></p>
+        <p>총사용가능연차일수: <input type="text" id="individual_yearoff_full" name="individual_yearoff_full_count" value="{{individual_yearoff_full_count_value}}"></p>
+        <p>연차사용일수: <input type="text" id="yearoff_count" name="yearoff_count" value="{{yearoff_count_value}}"></p>
+        <p>연차사용일자: <textarea id="yearoff_date" name="yearoff_date">{{yearoff_date_value|join(',')}}</textarea></p>
+    </body>
+</html>
